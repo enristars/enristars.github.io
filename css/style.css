@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #ff6666, #66ff66, #6666ff);
+    background: linear-gradient(90deg, #ff6666, #5bd55b, #6666ff);
     padding: 20px;
     border: 5px dotted yellow;
 }
@@ -20,7 +20,7 @@ marquee {
 
 nav a {
     font-size: 20px;
-    color: #00ff00; /* Neon green */
+    color: #275527; /* Neon green */
     text-decoration: none;
     padding: 10px;
 }
@@ -31,9 +31,7 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
-    background: url("https://via.placeholder.com/600/ffccff/ffffff?text=90s+Background") repeat;
-    border: 3px solid #ff00ff;
+    padding: 20px;border: 3px solid #ff00ff;
     border-radius: 15px;
 }
 
