@@ -1,22 +1,61 @@
-/* Reset default margins and paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
 
-/* Basic body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #171717;
+    background-color: #ffccff; /* Neon pink background */
+    color: #000080; /* Navy text */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6666, #66ff66, #6666ff);
     padding: 20px;
+    border: 5px dotted yellow;
 }
 
-h1 {
-    color: #2c3e50;
+marquee {
+    color: #ff0000;
+    font-weight: bold;
 }
 
-p {
-    font-size: 1.2em;
+nav a {
+    font-size: 20px;
+    color: #00ff00; /* Neon green */
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ffff00; /* Bright yellow highlight */
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    background: url("https://via.placeholder.com/600/ffccff/ffffff?text=90s+Background") repeat;
+    border: 3px solid #ff00ff;
+    border-radius: 15px;
+}
+
+img {
+    border: 5px solid #00ff00;
+    box-shadow: 10px 10px 5px #ff0000;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #000080; /* Navy */
+    color: #ffffff; /* White */
+    font-size: 16px;
+}
+
+blink {
+    color: #ff6600; /* Orange */
+    font-weight: bold;
+}
+
+/* Fun cursor */
+body {
+    cursor: url("https://www.computerhope.com/jargon/c/cursor2.cur"), auto;
 }
