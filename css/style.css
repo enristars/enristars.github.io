@@ -31,13 +31,13 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;border: 3px solid #ff00ff;
+    padding: 20px;border: 3px solid #ff8bff;
     border-radius: 15px;
 }
 
 img {
     border: 5px solid #00ff00;
-    box-shadow: 10px 10px 5px #ff0000;
+    box-shadow: 10px 10px 2px #ff0000;
 }
 
 footer {
@@ -56,4 +56,33 @@ blink {
 /* Fun cursor */
 body {
     cursor: url("https://www.computerhope.com/jargon/c/cursor2.cur"), auto;
+}
+
+/* Social links styling */
+.social-links {
+    text-align: center; /* Center the paragraph in the div */
+    margin: 20px 0;
+}
+
+.social-links p {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between icons */
+    font-size: 18px;
+    color: #000080; /* Navy for text */
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links .icon {
+    width: 30px; /* Adjust icon size */
+    height: auto;
+    vertical-align: middle; /* Align with text */
+    transition: transform 0.2s ease;
+}
+
+.social-links .icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
 }
